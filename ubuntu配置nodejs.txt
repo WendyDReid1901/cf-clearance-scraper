@@ -12,6 +12,7 @@ nvm install v22.14.0
 
 配置依赖
 sudo apt update && sudo apt install -y \
+    git \
     gnupg \
     ca-certificates \
     apt-transport-https \
