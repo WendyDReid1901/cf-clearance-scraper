@@ -1,0 +1,10 @@
+安装nvm：
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+载入nvm（安装完成后重新打开终端或者执行以下命令）：
+
+source ~/.bashrc
+安装所需版本的Node.js（以安装最新的LTS版本为例）：
+
+nvm list-remote  # 查看 NVM 哪些版本的 Node 可用
+nvm install v22.14.0
