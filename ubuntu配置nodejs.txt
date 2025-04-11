@@ -8,3 +8,13 @@ source ~/.bashrc
 
 nvm list-remote  # 查看 NVM 哪些版本的 Node 可用
 nvm install v22.14.0
+
+
+配置依赖
+sudo apt update && sudo apt install -y \
+    gnupg \
+    ca-certificates \
+    apt-transport-https \
+    chromium \
+    chromium-driver \
+    xvfb
