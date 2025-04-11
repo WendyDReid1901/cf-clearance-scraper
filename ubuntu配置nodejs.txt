@@ -15,6 +15,7 @@ sudo apt update && sudo apt install -y \
     gnupg \
     ca-certificates \
     apt-transport-https \
-    chromium \
-    chromium-driver \
-    xvfb
+    chromium-chromedriver \
+    xvfb && \
+sudo snap install chromium
+
