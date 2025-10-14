@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repo will no longer receive updates. Thank you to everyone who supported it.
+
 # CF Clearance Scraper
 
 This library was created for testing and training purposes to retrieve the page source of websites, create Cloudflare Turnstile tokens and create Cloudflare WAF sessions.
@@ -8,7 +11,7 @@ Cookies with cf in the name belong to Cloudflare. You can find out what these co
 
 ## Sponsor
 
-[![Capsolver](src/data/capsolver.png)](https://www.capsolver.com/?utm_source=github&utm_medium=repo&utm_campaign=scraping&utm_term=cf-clearance-scraper)
+[![ScrapeDo](src/data/sdo.gif)](https://scrape.do/?utm_source=github&utm_medium=repo_ccs)
 
 ## Installation
 
