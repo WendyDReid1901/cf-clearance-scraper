@@ -65,10 +65,8 @@ app.post('/cf-clearance-scraper', async (req, res) => {
     res.status(result.code ?? 500).send(result)
 })
 
-app.use((req, res) => { res.status(404).json({ code: 404, message: 'Not Found' }) })
-
-if (process.env.NODE_ENV == 'development') module.exports = app
-
-process.on('uncaughtException', function (err) {
-    console.log('No worries,still working on~~~');
-});
+app.use((err, req, res, next) => {
+    console.log(err.message)
+    res.status(404).json({ code: 404, message: err.message })
+    next()
+})
